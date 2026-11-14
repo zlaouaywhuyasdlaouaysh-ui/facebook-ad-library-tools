@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+{%- if page.alt_en %}
+<link rel="alternate" hreflang="zh-CN" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ page.alt_en | absolute_url }}">
+{%- endif %}
+{%- if page.alt_zh %}
+<link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="zh-CN" href="{{ '/' | absolute_url }}">
+{%- endif %}
+<style>
+:root{color-scheme:light dark;--fg:#1f2328;--muted:#59636e;--line:#d1d9e0;--bg:#fff;--soft:#f6f8fa;--link:#0969da}
+@media (prefers-color-scheme:dark){:root{--fg:#e6edf3;--muted:#9198a1;--line:#3d444d;--bg:#0d1117;--soft:#151b23;--link:#4493f8}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
+header,main,footer{max-width:880px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;padding-top:16px;padding-bottom:12px;border-bottom:1px solid var(--line);font-size:14px}
+header .brand{font-weight:600;color:var(--fg);margin-right:auto}
+main{padding-top:8px;padding-bottom:40px}
+h1{font-size:1.9em;line-height:1.3}h2{border-bottom:1px solid var(--line);padding-bottom:.3em;margin-top:1.8em}
+table{border-collapse:collapse;display:block;overflow-x:auto;margin:1em 0}th,td{border:1px solid var(--line);padding:6px 12px;vertical-align:top}th{background:var(--soft)}
+code{background:var(--soft);padding:.15em .35em;border-radius:5px;font-size:.88em;word-break:break-all}
+pre{background:var(--soft);padding:14px;border-radius:6px;overflow-x:auto}pre code{padding:0;word-break:normal}
+blockquote{margin:1em 0;padding:.2em 1em;color:var(--muted);border-left:4px solid var(--line)}
+.full{margin:2em 0;padding:14px 18px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}
+footer{border-top:1px solid var(--line);padding-top:16px;padding-bottom:32px;font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <a href="https://33.ci/guides?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign={{ site.repository | split: '/' | last }}">完整教程</a>
+  <a href="https://33.ci/tools?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign={{ site.repository | split: '/' | last }}">免费工具</a>
+  <a href="https://33.ci/?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign={{ site.repository | split: '/' | last }}">33.ci 广告监控</a>
+  <a href="https://github.com/{{ site.repository }}">GitHub</a>
+</header>
+<main>
+{{ content }}
+{%- if page.full %}
+<p class="full">这是精简版。截图、示例和更多细节见 33.ci 完整版：<a href="{{ page.full }}">{{ page.title }}</a></p>
+{%- endif %}
+</main>
+<footer>
+  <p>由 <a href="https://33.ci/?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign={{ site.repository | split: '/' | last }}">33.ci</a> 维护 · Facebook 广告资料库监控：新上、停投、改素材、改文案自动通知。
+  源码与更新：<a href="https://github.com/{{ site.repository }}">github.com/{{ site.repository }}</a>。与 Meta Platforms, Inc. 无关联。</p>
+</footer>
+</body>
+</html>
