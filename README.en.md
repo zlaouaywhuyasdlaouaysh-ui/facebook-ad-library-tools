@@ -39,7 +39,8 @@ https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=U
 Node.js 18.3+.
 
 ```bash
-npx github:zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-tools search dog bed -c US -s active -m video
+# npm 12+ blocks git installs by default, hence --allow-git=all
+npx --allow-git=all github:zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-tools search dog bed -c US -s active -m video
 ```
 
 ```console

@@ -69,11 +69,11 @@ https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=U
 需要 Node.js 18.3 或更高版本。
 
 ```bash
-# 不安装，直接用
-npx github:zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-tools search dog bed -c US -s active -m video
+# 不安装，直接用（npm 12 起默认禁止从 git 安装，需要带 --allow-git=all）
+npx --allow-git=all github:zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-tools search dog bed -c US -s active -m video
 
 # 或者装到全局
-npm install -g github:zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-tools
+npm install -g --allow-git=all github:zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-tools
 ```
 
 ```console
