@@ -1,0 +1,46 @@
+{
+  "name": "facebook-ad-library-tools",
+  "version": "1.0.0",
+  "description": "Facebook 广告资料库（Meta Ad Library）链接生成、解析、广告编号/主页编号提取 — URL builder, parser and ID extractor, CLI + userscript, zero dependencies",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "fbal": "bin/fbal.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.3"
+  },
+  "keywords": [
+    "facebook-ad-library",
+    "meta-ad-library",
+    "facebook-ads",
+    "ad-library",
+    "ad-spy",
+    "competitor-ads",
+    "ad-monitoring",
+    "facebook-ads-library-url",
+    "cross-border-ecommerce",
+    "dropshipping"
+  ],
+  "author": "33.ci (https://33.ci)",
+  "license": "MIT",
+  "homepage": "https://33.ci/tools",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-tools/issues"
+  }
+}
