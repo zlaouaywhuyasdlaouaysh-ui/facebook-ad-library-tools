@@ -1,5 +1,5 @@
 # GitHub Pages (classic Jekyll build, no Actions)
-title: "Facebook 广告资料库工具"
+title: "Facebook Ad Library Tools"
 description: "Facebook 广告资料库（Meta Ad Library）链接生成、解析与编号提取：CLI + 油猴脚本。"
 lang: zh-CN
 url: "https://zlaouaywhuyasdlaouaysh-ui.github.io"
@@ -8,6 +8,7 @@ repository: "zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-tools"
 author:
   name: "33.ci"
   url: "https://33.ci"
+  type: "Organization"
 logo: "https://33.ci/icon-192.png"
 plugins:
   - jekyll-seo-tag
@@ -31,6 +32,6 @@ defaults:
   - scope: {path: ""}
     values: {layout: default}
   - scope: {path: "README.md"}
-    values: {title: "Facebook 广告资料库链接生成、解析与编号提取工具", description: "Facebook 广告资料库（Meta Ad Library）链接参数速查表，命令行和油猴脚本：生成搜索链接、解析链接、批量提取广告编号和主页编号。开源免费。", alt_en: "README.en.html"}
+    values: {title: "Facebook 广告资料库链接生成、解析与编号提取（CLI + 油猴脚本）", description: "Facebook 广告资料库（Meta Ad Library）链接参数速查表，命令行和油猴脚本：生成搜索链接、解析链接、批量提取广告编号和主页编号。开源免费。", alt_en: "README.en.html"}
   - scope: {path: "README.en.md"}
     values: {title: "Facebook Ad Library URL Builder, Parser and ID Extractor", description: "Facebook Ad Library (Meta Ad Library) URL parameters reference, CLI and userscript: build and parse URLs, extract Library IDs and Page IDs. Free and open source.", lang: en, alt_zh: "./"}

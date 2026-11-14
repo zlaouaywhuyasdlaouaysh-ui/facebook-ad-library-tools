@@ -5,12 +5,7 @@
   命令行 + JS 库 + 油猴脚本，零依赖，MIT 开源。
 </p>
 
-<p align="center">
-  <a href="https://33.ci/tools?utm_source=github&utm_medium=referral&utm_campaign=fb-ad-library-tools"><b>在线版（免安装）</b></a> ·
-  <a href="README.en.md">English</a> ·
-  <a href="https://github.com/zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-guide">Facebook 广告资料库中文指南</a> ·
-  <a href="https://33.ci/?utm_source=github&utm_medium=referral&utm_campaign=fb-ad-library-tools">33.ci 广告监控</a>
-</p>
+**[在线版（免安装）](https://33.ci/tools?utm_source=github&utm_medium=referral&utm_campaign=fb-ad-library-tools)** · [English](README.en.md) · [Facebook 广告资料库中文指南](https://github.com/zlaouaywhuyasdlaouaysh-ui/facebook-ad-library-guide) · [33.ci 广告监控](https://33.ci/?utm_source=github&utm_medium=referral&utm_campaign=fb-ad-library-tools)
 
 ---
 
